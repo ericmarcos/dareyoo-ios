@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'dareyoo' do
+ pod 'AFNetworking', '~> 2.5'
+ pod 'KZBootstrap', '~> 0.5'
+ pod 'KZPropertyMapper', '~> 2.5'
+end
+
+target 'dareyooTests' do
+ pod 'OHHTTPStubs', '~> 3.1'
+ pod 'KIF', '~> 3.0'
+ pod 'OCMock', '~> 3.1'
+end
+
