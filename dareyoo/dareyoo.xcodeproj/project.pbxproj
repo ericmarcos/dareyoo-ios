@@ -18,6 +18,7 @@
 		CD6866031A27E92F000A1F56 /* dareyooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6866021A27E92F000A1F56 /* dareyooTests.m */; };
 		CDBCFE091A31231A00EF09E1 /* DYBet.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCFE081A31231A00EF09E1 /* DYBet.m */; };
 		CDBCFE0C1A31254A00EF09E1 /* DYAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCFE0B1A31254A00EF09E1 /* DYAuthor.m */; };
+		CDCDBE761A39011B00086107 /* DYBid.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCDBE751A39011B00086107 /* DYBid.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CDBCFE081A31231A00EF09E1 /* DYBet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYBet.m; path = Models/DYBet.m; sourceTree = "<group>"; };
 		CDBCFE0A1A31254A00EF09E1 /* DYAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYAuthor.h; path = Models/DYAuthor.h; sourceTree = "<group>"; };
 		CDBCFE0B1A31254A00EF09E1 /* DYAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYAuthor.m; path = Models/DYAuthor.m; sourceTree = "<group>"; };
+		CDCDBE741A39011B00086107 /* DYBid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYBid.h; path = Models/DYBid.h; sourceTree = "<group>"; };
+		CDCDBE751A39011B00086107 /* DYBid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYBid.m; path = Models/DYBid.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +168,8 @@
 				CDBCFE081A31231A00EF09E1 /* DYBet.m */,
 				CDBCFE0A1A31254A00EF09E1 /* DYAuthor.h */,
 				CDBCFE0B1A31254A00EF09E1 /* DYAuthor.m */,
+				CDCDBE741A39011B00086107 /* DYBid.h */,
+				CDCDBE751A39011B00086107 /* DYBid.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -336,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCDBE761A39011B00086107 /* DYBid.m in Sources */,
 				CDBCFE0C1A31254A00EF09E1 /* DYAuthor.m in Sources */,
 				CD6865EF1A27E92F000A1F56 /* ViewController.m in Sources */,
 				CD6865EC1A27E92F000A1F56 /* AppDelegate.m in Sources */,

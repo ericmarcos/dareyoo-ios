@@ -7,11 +7,11 @@
 
 @interface DYAuthor : NSObject
 
-@property (nonatomic,strong,readonly) NSString *id;
-@property (nonatomic,strong,readonly) NSString *url;
-@property (nonatomic,strong,readonly) NSString *username;
-@property (nonatomic,strong,readonly) NSString *pictureURL;
-@property (nonatomic,strong,readonly) NSString *userBio;
+@property (nonatomic,copy,readonly) NSString *id;
+@property (nonatomic,copy,readonly) NSString *url;
+@property (nonatomic,copy,readonly) NSString *username;
+@property (nonatomic,copy,readonly) NSString *pictureURL;
+@property (nonatomic,copy,readonly) NSString *userBio;
 @property (nonatomic,readonly) NSInteger fairPlay;
 @property (nonatomic,readonly) NSInteger level;
 
