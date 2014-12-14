@@ -17,7 +17,7 @@
 @property (nonatomic,strong,readonly) NSNumber *referee_escrow;
 @property (nonatomic,strong,readonly) NSNumber *bet_type; //later may use ENUM
 @property (nonatomic,copy,readonly) NSString *bet_state;
-@property (nonatomic,strong,readonly) NSNumber *odss;
+@property (nonatomic,strong,readonly) NSNumber *odds;
 @property (nonatomic,copy,readonly) NSString *created_at;
 @property (nonatomic,copy,readonly) NSString *id;
 @property (nonatomic,copy,readonly) NSString *bidding_deadline;

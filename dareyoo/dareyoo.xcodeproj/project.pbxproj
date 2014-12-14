@@ -19,6 +19,8 @@
 		CDBCFE091A31231A00EF09E1 /* DYBet.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCFE081A31231A00EF09E1 /* DYBet.m */; };
 		CDBCFE0C1A31254A00EF09E1 /* DYAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCFE0B1A31254A00EF09E1 /* DYAuthor.m */; };
 		CDCDBE761A39011B00086107 /* DYBid.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCDBE751A39011B00086107 /* DYBid.m */; };
+		CDCDBE7A1A3E069B00086107 /* NSDictionary+Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCDBE791A3E069B00086107 /* NSDictionary+Parser.m */; };
+		CDCDBE7D1A3E0B3400086107 /* RLNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCDBE7C1A3E0B3400086107 /* RLNetworkRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,11 @@
 		CDBCFE0B1A31254A00EF09E1 /* DYAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYAuthor.m; path = Models/DYAuthor.m; sourceTree = "<group>"; };
 		CDCDBE741A39011B00086107 /* DYBid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYBid.h; path = Models/DYBid.h; sourceTree = "<group>"; };
 		CDCDBE751A39011B00086107 /* DYBid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYBid.m; path = Models/DYBid.m; sourceTree = "<group>"; };
+		CDCDBE781A3E069B00086107 /* NSDictionary+Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Parser.h"; path = "Helpers/NSDictionary+Parser.h"; sourceTree = "<group>"; };
+		CDCDBE791A3E069B00086107 /* NSDictionary+Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Parser.m"; path = "Helpers/NSDictionary+Parser.m"; sourceTree = "<group>"; };
+		CDCDBE7B1A3E0B3400086107 /* RLNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLNetworkRequest.h; sourceTree = "<group>"; };
+		CDCDBE7C1A3E0B3400086107 /* RLNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLNetworkRequest.m; sourceTree = "<group>"; };
+		CDCDBE7E1A3E0C5800086107 /* MMDebugMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDebugMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,11 +129,14 @@
 		CD6865E51A27E92F000A1F56 /* dareyoo */ = {
 			isa = PBXGroup;
 			children = (
+				CDCDBE771A3E066F00086107 /* Helpers */,
 				CDBCFE061A31224500EF09E1 /* Models */,
 				CD6865EA1A27E92F000A1F56 /* AppDelegate.h */,
 				CD6865EB1A27E92F000A1F56 /* AppDelegate.m */,
 				CD6865ED1A27E92F000A1F56 /* ViewController.h */,
 				CD6865EE1A27E92F000A1F56 /* ViewController.m */,
+				CDCDBE7B1A3E0B3400086107 /* RLNetworkRequest.h */,
+				CDCDBE7C1A3E0B3400086107 /* RLNetworkRequest.m */,
 				CD6865F01A27E92F000A1F56 /* Main.storyboard */,
 				CD6865F31A27E92F000A1F56 /* Images.xcassets */,
 				CD6865F51A27E92F000A1F56 /* LaunchScreen.xib */,
@@ -172,6 +182,16 @@
 				CDCDBE751A39011B00086107 /* DYBid.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		CDCDBE771A3E066F00086107 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CDCDBE7E1A3E0C5800086107 /* MMDebugMacros.h */,
+				CDCDBE781A3E069B00086107 /* NSDictionary+Parser.h */,
+				CDCDBE791A3E069B00086107 /* NSDictionary+Parser.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,8 +364,10 @@
 				CDCDBE761A39011B00086107 /* DYBid.m in Sources */,
 				CDBCFE0C1A31254A00EF09E1 /* DYAuthor.m in Sources */,
 				CD6865EF1A27E92F000A1F56 /* ViewController.m in Sources */,
+				CDCDBE7D1A3E0B3400086107 /* RLNetworkRequest.m in Sources */,
 				CD6865EC1A27E92F000A1F56 /* AppDelegate.m in Sources */,
 				CDBCFE091A31231A00EF09E1 /* DYBet.m in Sources */,
+				CDCDBE7A1A3E069B00086107 /* NSDictionary+Parser.m in Sources */,
 				CD6865E91A27E92F000A1F56 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
