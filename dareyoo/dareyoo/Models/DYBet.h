@@ -43,9 +43,7 @@
 @property (nonatomic,strong,readonly) NSNumber *points;
 @property (nonatomic,strong,readonly) NSNumber *referee_points;
 
-
-
-
-
++(instancetype)instanceFromDictionary:(NSDictionary *)data;
++(instancetype)bet;
 
 @end

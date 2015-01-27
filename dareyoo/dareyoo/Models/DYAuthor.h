@@ -12,7 +12,10 @@
 @property (nonatomic,copy,readonly) NSString *username;
 @property (nonatomic,copy,readonly) NSString *pictureURL;
 @property (nonatomic,copy,readonly) NSString *userBio;
-@property (nonatomic,readonly) NSInteger fairPlay;
-@property (nonatomic,readonly) NSInteger level;
+@property (nonatomic,strong,readonly) NSNumber *fairPlay;
+@property (nonatomic,strong,readonly) NSNumber *level;
+
++(instancetype)instanceFromDictionary:(NSDictionary *)data;
++(instancetype)author;
 
 @end

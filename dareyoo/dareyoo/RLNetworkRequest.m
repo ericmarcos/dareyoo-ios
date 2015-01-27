@@ -16,7 +16,6 @@
     
     RLNetworkRequest *network = [[RLNetworkRequest alloc] initNetworkWithManager:manager];
     return network;
-    
 }
 
 -(instancetype) initNetworkWithManager:(AFHTTPRequestOperationManager *)manager

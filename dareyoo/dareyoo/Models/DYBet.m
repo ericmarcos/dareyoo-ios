@@ -11,6 +11,7 @@
 +(instancetype)instanceFromDictionary:(NSDictionary *)data
 {
     DYBet *bet = [DYBet bet];
+    [bet populateInstanceWithDictionary:data];
     return bet;
 }
 

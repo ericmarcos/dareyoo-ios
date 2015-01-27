@@ -16,11 +16,17 @@
 		CD6865F41A27E92F000A1F56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6865F31A27E92F000A1F56 /* Images.xcassets */; };
 		CD6865F71A27E92F000A1F56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD6865F51A27E92F000A1F56 /* LaunchScreen.xib */; };
 		CD6866031A27E92F000A1F56 /* dareyooTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6866021A27E92F000A1F56 /* dareyooTests.m */; };
+		CD77A3D91A7852C50023BC65 /* fb login btt.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77A3D71A7852C50023BC65 /* fb login btt.png */; };
+		CD77A3DA1A7852C50023BC65 /* login btt.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77A3D81A7852C50023BC65 /* login btt.png */; };
+		CD77A3DC1A7853140023BC65 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77A3DB1A7853140023BC65 /* logo1.png */; };
+		CD77A3DE1A7857B20023BC65 /* mans i copa.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77A3DD1A7857B20023BC65 /* mans i copa.png */; };
 		CDBCFE091A31231A00EF09E1 /* DYBet.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCFE081A31231A00EF09E1 /* DYBet.m */; };
 		CDBCFE0C1A31254A00EF09E1 /* DYAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCFE0B1A31254A00EF09E1 /* DYAuthor.m */; };
 		CDCDBE761A39011B00086107 /* DYBid.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCDBE751A39011B00086107 /* DYBid.m */; };
 		CDCDBE7A1A3E069B00086107 /* NSDictionary+Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCDBE791A3E069B00086107 /* NSDictionary+Parser.m */; };
 		CDCDBE7D1A3E0B3400086107 /* RLNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCDBE7C1A3E0B3400086107 /* RLNetworkRequest.m */; };
+		CDF1CB2B1A56B7DB008F5F1F /* DYBetRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1CB2A1A56B7DB008F5F1F /* DYBetRepository.m */; };
+		CDF1CB2E1A56BC3F008F5F1F /* DYAuthorRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF1CB2D1A56BC3F008F5F1F /* DYAuthorRepository.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,10 @@
 		CD6865FC1A27E92F000A1F56 /* dareyooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dareyooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6866011A27E92F000A1F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6866021A27E92F000A1F56 /* dareyooTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dareyooTests.m; sourceTree = "<group>"; };
+		CD77A3D71A7852C50023BC65 /* fb login btt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fb login btt.png"; sourceTree = "<group>"; };
+		CD77A3D81A7852C50023BC65 /* login btt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login btt.png"; sourceTree = "<group>"; };
+		CD77A3DB1A7853140023BC65 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		CD77A3DD1A7857B20023BC65 /* mans i copa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mans i copa.png"; sourceTree = "<group>"; };
 		CDBCFE071A31231A00EF09E1 /* DYBet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYBet.h; path = Models/DYBet.h; sourceTree = "<group>"; };
 		CDBCFE081A31231A00EF09E1 /* DYBet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYBet.m; path = Models/DYBet.m; sourceTree = "<group>"; };
 		CDBCFE0A1A31254A00EF09E1 /* DYAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYAuthor.h; path = Models/DYAuthor.h; sourceTree = "<group>"; };
@@ -64,6 +74,10 @@
 		CDCDBE7B1A3E0B3400086107 /* RLNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLNetworkRequest.h; sourceTree = "<group>"; };
 		CDCDBE7C1A3E0B3400086107 /* RLNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLNetworkRequest.m; sourceTree = "<group>"; };
 		CDCDBE7E1A3E0C5800086107 /* MMDebugMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMDebugMacros.h; sourceTree = "<group>"; };
+		CDF1CB291A56B7DB008F5F1F /* DYBetRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBetRepository.h; sourceTree = "<group>"; };
+		CDF1CB2A1A56B7DB008F5F1F /* DYBetRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYBetRepository.m; sourceTree = "<group>"; };
+		CDF1CB2C1A56BC3F008F5F1F /* DYAuthorRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYAuthorRepository.h; sourceTree = "<group>"; };
+		CDF1CB2D1A56BC3F008F5F1F /* DYAuthorRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYAuthorRepository.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,15 +143,20 @@
 		CD6865E51A27E92F000A1F56 /* dareyoo */ = {
 			isa = PBXGroup;
 			children = (
+				CD77A3D51A7852AD0023BC65 /* Resources */,
 				CDCDBE771A3E066F00086107 /* Helpers */,
 				CDBCFE061A31224500EF09E1 /* Models */,
 				CD6865EA1A27E92F000A1F56 /* AppDelegate.h */,
 				CD6865EB1A27E92F000A1F56 /* AppDelegate.m */,
 				CD6865ED1A27E92F000A1F56 /* ViewController.h */,
 				CD6865EE1A27E92F000A1F56 /* ViewController.m */,
+				CD6865F01A27E92F000A1F56 /* Main.storyboard */,
 				CDCDBE7B1A3E0B3400086107 /* RLNetworkRequest.h */,
 				CDCDBE7C1A3E0B3400086107 /* RLNetworkRequest.m */,
-				CD6865F01A27E92F000A1F56 /* Main.storyboard */,
+				CDF1CB291A56B7DB008F5F1F /* DYBetRepository.h */,
+				CDF1CB2A1A56B7DB008F5F1F /* DYBetRepository.m */,
+				CDF1CB2C1A56BC3F008F5F1F /* DYAuthorRepository.h */,
+				CDF1CB2D1A56BC3F008F5F1F /* DYAuthorRepository.m */,
 				CD6865F31A27E92F000A1F56 /* Images.xcassets */,
 				CD6865F51A27E92F000A1F56 /* LaunchScreen.xib */,
 				CD6865E61A27E92F000A1F56 /* Supporting Files */,
@@ -169,6 +188,25 @@
 				CD6866011A27E92F000A1F56 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD77A3D51A7852AD0023BC65 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD77A3D61A7852B70023BC65 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD77A3D61A7852B70023BC65 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CD77A3D71A7852C50023BC65 /* fb login btt.png */,
+				CD77A3D81A7852C50023BC65 /* login btt.png */,
+				CD77A3DB1A7853140023BC65 /* logo1.png */,
+				CD77A3DD1A7857B20023BC65 /* mans i copa.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		CDBCFE061A31224500EF09E1 /* Models */ = {
@@ -280,6 +318,10 @@
 			files = (
 				CD6865F21A27E92F000A1F56 /* Main.storyboard in Resources */,
 				CD6865F71A27E92F000A1F56 /* LaunchScreen.xib in Resources */,
+				CD77A3DA1A7852C50023BC65 /* login btt.png in Resources */,
+				CD77A3D91A7852C50023BC65 /* fb login btt.png in Resources */,
+				CD77A3DE1A7857B20023BC65 /* mans i copa.png in Resources */,
+				CD77A3DC1A7853140023BC65 /* logo1.png in Resources */,
 				CD6865F41A27E92F000A1F56 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,8 +406,10 @@
 				CDCDBE761A39011B00086107 /* DYBid.m in Sources */,
 				CDBCFE0C1A31254A00EF09E1 /* DYAuthor.m in Sources */,
 				CD6865EF1A27E92F000A1F56 /* ViewController.m in Sources */,
+				CDF1CB2E1A56BC3F008F5F1F /* DYAuthorRepository.m in Sources */,
 				CDCDBE7D1A3E0B3400086107 /* RLNetworkRequest.m in Sources */,
 				CD6865EC1A27E92F000A1F56 /* AppDelegate.m in Sources */,
+				CDF1CB2B1A56B7DB008F5F1F /* DYBetRepository.m in Sources */,
 				CDBCFE091A31231A00EF09E1 /* DYBet.m in Sources */,
 				CDCDBE7A1A3E069B00086107 /* NSDictionary+Parser.m in Sources */,
 				CD6865E91A27E92F000A1F56 /* main.m in Sources */,
