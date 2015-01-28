@@ -51,7 +51,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="logInPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qqr-s7-3ya"/>
+                                    <segue destination="BMq-4v-2H4" kind="show" id="5qL-Mf-KZI"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1.png" translatesAutoresizingMaskIntoConstraints="NO" id="O5W-ds-tNj">
@@ -61,9 +61,10 @@
                                     <constraint firstAttribute="height" constant="57" id="nAM-EK-ATB"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" misplaced="YES" text="¿Ya estas registrado?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rs2-jV-Y65">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="¿Ya estas registrado?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rs2-jV-Y65">
                                 <rect key="frame" x="117" y="344" width="140" height="21"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="PNB-jC-uRL"/>
                                     <constraint firstAttribute="height" constant="21" id="dln-jz-WxG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -98,9 +99,120 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="283.5" y="357.5"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="0Ij-bl-Xnr">
+            <objects>
+                <viewController id="BMq-4v-2H4" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hi2-G0-caw"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wli-S1-3EF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k42-rl-v9I">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo1.png" translatesAutoresizingMaskIntoConstraints="NO" id="rmY-o6-c12">
+                                <rect key="frame" x="121" y="81" width="132" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="XEN-zH-s1R"/>
+                                    <constraint firstAttribute="width" constant="132" id="jPs-2G-0RQ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZI1-07-0GO">
+                                <rect key="frame" x="67" y="233" width="240" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="OIL-cU-sFT"/>
+                                    <constraint firstAttribute="width" constant="240" id="mlB-Qq-q5K"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line.png" translatesAutoresizingMaskIntoConstraints="NO" id="xjb-Ed-Bid">
+                                <rect key="frame" x="67" y="276" width="240" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="e3q-jc-maB"/>
+                                    <constraint firstAttribute="height" constant="1" id="oiP-tk-fru"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Line.png" translatesAutoresizingMaskIntoConstraints="NO" id="1St-Dv-hrG">
+                                <rect key="frame" x="67" y="318" width="240" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="FQz-Ie-QPV"/>
+                                    <constraint firstAttribute="width" constant="240" id="OS7-pV-uUN"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VV4-eb-qAb">
+                                <rect key="frame" x="85" y="351" width="205" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="205" id="8DI-wJ-zcc"/>
+                                    <constraint firstAttribute="height" constant="45" id="YpW-Cf-xne"/>
+                                </constraints>
+                                <state key="normal" title="Empezar!" backgroundImage="login btt.png">
+                                    <color key="titleColor" red="1" green="0.29803921570000003" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="performLogin:" destination="BMq-4v-2H4" eventType="touchUpInside" id="sXh-AT-fki"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mans i copa.png" translatesAutoresizingMaskIntoConstraints="NO" id="3P6-9U-atq">
+                                <rect key="frame" x="0.0" y="539" width="375" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3P6-9U-atq" secondAttribute="height" multiplier="375:128" id="u2k-sg-Shj"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BgW-fP-Hex">
+                                <rect key="frame" x="77" y="233" width="221" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="221" id="Dbu-nK-sm8"/>
+                                    <constraint firstAttribute="height" constant="44" id="Ux1-Qj-QJh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Qh-2w-4qT">
+                                <rect key="frame" x="77" y="276" width="221" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="hh5-UE-xmg"/>
+                                    <constraint firstAttribute="width" constant="221" id="tQq-kX-G7L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.29803921570000003" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="1St-Dv-hrG" secondAttribute="centerX" constant="0.5" id="1it-AE-qG6"/>
+                            <constraint firstAttribute="centerX" secondItem="3P6-9U-atq" secondAttribute="centerX" id="4Et-BF-rK0"/>
+                            <constraint firstAttribute="centerX" secondItem="rmY-o6-c12" secondAttribute="centerX" constant="0.5" id="4Uj-Cb-hih"/>
+                            <constraint firstItem="6Qh-2w-4qT" firstAttribute="top" secondItem="rmY-o6-c12" secondAttribute="bottom" constant="138" id="DQ3-ke-vjW"/>
+                            <constraint firstItem="rmY-o6-c12" firstAttribute="top" secondItem="hi2-G0-caw" secondAttribute="bottom" constant="61" id="Eg5-Lb-uHj"/>
+                            <constraint firstAttribute="centerX" secondItem="ZI1-07-0GO" secondAttribute="centerX" constant="0.5" id="HVP-PD-bMz"/>
+                            <constraint firstAttribute="centerX" secondItem="xjb-Ed-Bid" secondAttribute="centerX" constant="0.5" id="Kki-mV-BlI"/>
+                            <constraint firstItem="3P6-9U-atq" firstAttribute="width" secondItem="k42-rl-v9I" secondAttribute="width" id="Tid-8R-56E"/>
+                            <constraint firstAttribute="centerX" secondItem="6Qh-2w-4qT" secondAttribute="centerX" id="dUv-Qx-hyt"/>
+                            <constraint firstAttribute="centerX" secondItem="VV4-eb-qAb" secondAttribute="centerX" id="iUC-eV-Hq5"/>
+                            <constraint firstItem="BgW-fP-Hex" firstAttribute="top" secondItem="rmY-o6-c12" secondAttribute="bottom" constant="95" id="kq7-x6-xO2"/>
+                            <constraint firstAttribute="centerX" secondItem="BgW-fP-Hex" secondAttribute="centerX" id="l7G-Iq-i7I"/>
+                            <constraint firstItem="VV4-eb-qAb" firstAttribute="top" secondItem="1St-Dv-hrG" secondAttribute="bottom" constant="32" id="lnh-xa-RVs"/>
+                            <constraint firstItem="xjb-Ed-Bid" firstAttribute="top" secondItem="ZI1-07-0GO" secondAttribute="bottom" constant="42" id="m7g-Nw-e3Y"/>
+                            <constraint firstItem="3P6-9U-atq" firstAttribute="width" secondItem="3P6-9U-atq" secondAttribute="height" multiplier="375:128" id="oSw-eT-LHN"/>
+                            <constraint firstItem="ZI1-07-0GO" firstAttribute="top" secondItem="rmY-o6-c12" secondAttribute="bottom" constant="95" id="oVP-GK-Sxc"/>
+                            <constraint firstItem="1St-Dv-hrG" firstAttribute="top" secondItem="xjb-Ed-Bid" secondAttribute="bottom" constant="41" id="ptK-Z0-S3f"/>
+                            <constraint firstItem="Wli-S1-3EF" firstAttribute="top" secondItem="3P6-9U-atq" secondAttribute="bottom" id="tNh-XK-YQJ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T8k-Lc-WGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="919.5" y="357.5"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Line.png" width="886" height="2"/>
         <image name="fb login btt.png" width="820" height="178"/>
         <image name="login btt.png" width="820" height="178"/>
         <image name="logo1.png" width="530" height="228"/>

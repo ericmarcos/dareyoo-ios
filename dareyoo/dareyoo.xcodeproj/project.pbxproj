@@ -20,6 +20,10 @@
 		CD77A3DA1A7852C50023BC65 /* login btt.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77A3D81A7852C50023BC65 /* login btt.png */; };
 		CD77A3DC1A7853140023BC65 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77A3DB1A7853140023BC65 /* logo1.png */; };
 		CD77A3DE1A7857B20023BC65 /* mans i copa.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77A3DD1A7857B20023BC65 /* mans i copa.png */; };
+		CD77A3E01A799BBA0023BC65 /* Line.png in Resources */ = {isa = PBXBuildFile; fileRef = CD77A3DF1A799BBA0023BC65 /* Line.png */; };
+		CD77A3E31A79A0AF0023BC65 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD77A3E21A79A0AF0023BC65 /* LoginViewController.m */; };
+		CD77A3E61A79A4170023BC65 /* DYBetlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD77A3E51A79A4170023BC65 /* DYBetlineViewController.m */; };
+		CD77A3EA1A79A4860023BC65 /* DYBetlineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD77A3E91A79A4860023BC65 /* DYBetlineViewController.xib */; };
 		CDBCFE091A31231A00EF09E1 /* DYBet.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCFE081A31231A00EF09E1 /* DYBet.m */; };
 		CDBCFE0C1A31254A00EF09E1 /* DYAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBCFE0B1A31254A00EF09E1 /* DYAuthor.m */; };
 		CDCDBE761A39011B00086107 /* DYBid.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCDBE751A39011B00086107 /* DYBid.m */; };
@@ -63,6 +67,12 @@
 		CD77A3D81A7852C50023BC65 /* login btt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login btt.png"; sourceTree = "<group>"; };
 		CD77A3DB1A7853140023BC65 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		CD77A3DD1A7857B20023BC65 /* mans i copa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mans i copa.png"; sourceTree = "<group>"; };
+		CD77A3DF1A799BBA0023BC65 /* Line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Line.png; sourceTree = "<group>"; };
+		CD77A3E11A79A0AF0023BC65 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CD77A3E21A79A0AF0023BC65 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CD77A3E41A79A4170023BC65 /* DYBetlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBetlineViewController.h; sourceTree = "<group>"; };
+		CD77A3E51A79A4170023BC65 /* DYBetlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYBetlineViewController.m; sourceTree = "<group>"; };
+		CD77A3E91A79A4860023BC65 /* DYBetlineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYBetlineViewController.xib; sourceTree = "<group>"; };
 		CDBCFE071A31231A00EF09E1 /* DYBet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYBet.h; path = Models/DYBet.h; sourceTree = "<group>"; };
 		CDBCFE081A31231A00EF09E1 /* DYBet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DYBet.m; path = Models/DYBet.m; sourceTree = "<group>"; };
 		CDBCFE0A1A31254A00EF09E1 /* DYAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DYAuthor.h; path = Models/DYAuthor.h; sourceTree = "<group>"; };
@@ -151,6 +161,11 @@
 				CD6865ED1A27E92F000A1F56 /* ViewController.h */,
 				CD6865EE1A27E92F000A1F56 /* ViewController.m */,
 				CD6865F01A27E92F000A1F56 /* Main.storyboard */,
+				CD77A3E11A79A0AF0023BC65 /* LoginViewController.h */,
+				CD77A3E21A79A0AF0023BC65 /* LoginViewController.m */,
+				CD77A3E41A79A4170023BC65 /* DYBetlineViewController.h */,
+				CD77A3E51A79A4170023BC65 /* DYBetlineViewController.m */,
+				CD77A3E91A79A4860023BC65 /* DYBetlineViewController.xib */,
 				CDCDBE7B1A3E0B3400086107 /* RLNetworkRequest.h */,
 				CDCDBE7C1A3E0B3400086107 /* RLNetworkRequest.m */,
 				CDF1CB291A56B7DB008F5F1F /* DYBetRepository.h */,
@@ -205,6 +220,7 @@
 				CD77A3D81A7852C50023BC65 /* login btt.png */,
 				CD77A3DB1A7853140023BC65 /* logo1.png */,
 				CD77A3DD1A7857B20023BC65 /* mans i copa.png */,
+				CD77A3DF1A799BBA0023BC65 /* Line.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -319,6 +335,8 @@
 				CD6865F21A27E92F000A1F56 /* Main.storyboard in Resources */,
 				CD6865F71A27E92F000A1F56 /* LaunchScreen.xib in Resources */,
 				CD77A3DA1A7852C50023BC65 /* login btt.png in Resources */,
+				CD77A3E01A799BBA0023BC65 /* Line.png in Resources */,
+				CD77A3EA1A79A4860023BC65 /* DYBetlineViewController.xib in Resources */,
 				CD77A3D91A7852C50023BC65 /* fb login btt.png in Resources */,
 				CD77A3DE1A7857B20023BC65 /* mans i copa.png in Resources */,
 				CD77A3DC1A7853140023BC65 /* logo1.png in Resources */,
@@ -410,8 +428,10 @@
 				CDCDBE7D1A3E0B3400086107 /* RLNetworkRequest.m in Sources */,
 				CD6865EC1A27E92F000A1F56 /* AppDelegate.m in Sources */,
 				CDF1CB2B1A56B7DB008F5F1F /* DYBetRepository.m in Sources */,
+				CD77A3E61A79A4170023BC65 /* DYBetlineViewController.m in Sources */,
 				CDBCFE091A31231A00EF09E1 /* DYBet.m in Sources */,
 				CDCDBE7A1A3E069B00086107 /* NSDictionary+Parser.m in Sources */,
+				CD77A3E31A79A0AF0023BC65 /* LoginViewController.m in Sources */,
 				CD6865E91A27E92F000A1F56 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

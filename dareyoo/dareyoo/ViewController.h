@@ -1,7 +1,4 @@
 //
-//  ViewController.h
-//  dareyoo
-//
 //  Created by Raimon Lapuente on 27/11/14.
 //  Copyright (c) 2014 Dareyoo. All rights reserved.
 //
