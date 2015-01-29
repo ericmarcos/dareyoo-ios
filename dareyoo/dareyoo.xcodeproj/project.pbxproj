@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		40AC848D6CCAF0CD63889BF8 /* libPods-dareyooTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 259EEC410F751D92EC56AB6A /* libPods-dareyooTests.a */; };
 		4D4669D02D9BCF7824B27C76 /* libPods-dareyoo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF9EFA2A77B1C874C10622E /* libPods-dareyoo.a */; };
+		CD5033F51A7AF88400E6FA53 /* DYBetlineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5033F31A7AF88400E6FA53 /* DYBetlineTableViewCell.m */; };
+		CD5033F61A7AF88400E6FA53 /* DYBetlineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5033F41A7AF88400E6FA53 /* DYBetlineTableViewCell.xib */; };
 		CD6865E91A27E92F000A1F56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6865E81A27E92F000A1F56 /* main.m */; };
 		CD6865EC1A27E92F000A1F56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6865EB1A27E92F000A1F56 /* AppDelegate.m */; };
 		CD6865EF1A27E92F000A1F56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6865EE1A27E92F000A1F56 /* ViewController.m */; };
@@ -50,6 +52,9 @@
 		428FF77CF487C5A16A3A7FD4 /* Pods-dareyooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dareyooTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dareyooTests/Pods-dareyooTests.debug.xcconfig"; sourceTree = "<group>"; };
 		430DE0CE26F5B4E4761ED993 /* Pods-dareyoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dareyoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-dareyoo/Pods-dareyoo.release.xcconfig"; sourceTree = "<group>"; };
 		786761C997C26DD90CF3C370 /* Pods-dareyooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dareyooTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dareyooTests/Pods-dareyooTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD5033F21A7AF88400E6FA53 /* DYBetlineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBetlineTableViewCell.h; sourceTree = "<group>"; };
+		CD5033F31A7AF88400E6FA53 /* DYBetlineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYBetlineTableViewCell.m; sourceTree = "<group>"; };
+		CD5033F41A7AF88400E6FA53 /* DYBetlineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYBetlineTableViewCell.xib; sourceTree = "<group>"; };
 		CD6865E31A27E92F000A1F56 /* dareyoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dareyoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6865E71A27E92F000A1F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6865E81A27E92F000A1F56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -166,6 +171,9 @@
 				CD77A3E41A79A4170023BC65 /* DYBetlineViewController.h */,
 				CD77A3E51A79A4170023BC65 /* DYBetlineViewController.m */,
 				CD77A3E91A79A4860023BC65 /* DYBetlineViewController.xib */,
+				CD5033F21A7AF88400E6FA53 /* DYBetlineTableViewCell.h */,
+				CD5033F31A7AF88400E6FA53 /* DYBetlineTableViewCell.m */,
+				CD5033F41A7AF88400E6FA53 /* DYBetlineTableViewCell.xib */,
 				CDCDBE7B1A3E0B3400086107 /* RLNetworkRequest.h */,
 				CDCDBE7C1A3E0B3400086107 /* RLNetworkRequest.m */,
 				CDF1CB291A56B7DB008F5F1F /* DYBetRepository.h */,
@@ -340,6 +348,7 @@
 				CD77A3D91A7852C50023BC65 /* fb login btt.png in Resources */,
 				CD77A3DE1A7857B20023BC65 /* mans i copa.png in Resources */,
 				CD77A3DC1A7853140023BC65 /* logo1.png in Resources */,
+				CD5033F61A7AF88400E6FA53 /* DYBetlineTableViewCell.xib in Resources */,
 				CD6865F41A27E92F000A1F56 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +434,7 @@
 				CDBCFE0C1A31254A00EF09E1 /* DYAuthor.m in Sources */,
 				CD6865EF1A27E92F000A1F56 /* ViewController.m in Sources */,
 				CDF1CB2E1A56BC3F008F5F1F /* DYAuthorRepository.m in Sources */,
+				CD5033F51A7AF88400E6FA53 /* DYBetlineTableViewCell.m in Sources */,
 				CDCDBE7D1A3E0B3400086107 /* RLNetworkRequest.m in Sources */,
 				CD6865EC1A27E92F000A1F56 /* AppDelegate.m in Sources */,
 				CDF1CB2B1A56B7DB008F5F1F /* DYBetRepository.m in Sources */,
