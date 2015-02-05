@@ -11,6 +11,8 @@
 		4D4669D02D9BCF7824B27C76 /* libPods-dareyoo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF9EFA2A77B1C874C10622E /* libPods-dareyoo.a */; };
 		CD5033F51A7AF88400E6FA53 /* DYBetlineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5033F31A7AF88400E6FA53 /* DYBetlineTableViewCell.m */; };
 		CD5033F61A7AF88400E6FA53 /* DYBetlineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD5033F41A7AF88400E6FA53 /* DYBetlineTableViewCell.xib */; };
+		CD5687611A82DF5C00629C98 /* DYBetlineTableViewCell+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5687601A82DF5C00629C98 /* DYBetlineTableViewCell+Configure.m */; };
+		CD5687641A82E0BF00629C98 /* DYBetlineRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5687631A82E0BF00629C98 /* DYBetlineRepository.m */; };
 		CD6865E91A27E92F000A1F56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6865E81A27E92F000A1F56 /* main.m */; };
 		CD6865EC1A27E92F000A1F56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6865EB1A27E92F000A1F56 /* AppDelegate.m */; };
 		CD6865EF1A27E92F000A1F56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6865EE1A27E92F000A1F56 /* ViewController.m */; };
@@ -55,6 +57,10 @@
 		CD5033F21A7AF88400E6FA53 /* DYBetlineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBetlineTableViewCell.h; sourceTree = "<group>"; };
 		CD5033F31A7AF88400E6FA53 /* DYBetlineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYBetlineTableViewCell.m; sourceTree = "<group>"; };
 		CD5033F41A7AF88400E6FA53 /* DYBetlineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DYBetlineTableViewCell.xib; sourceTree = "<group>"; };
+		CD56875F1A82DF5C00629C98 /* DYBetlineTableViewCell+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DYBetlineTableViewCell+Configure.h"; sourceTree = "<group>"; };
+		CD5687601A82DF5C00629C98 /* DYBetlineTableViewCell+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DYBetlineTableViewCell+Configure.m"; sourceTree = "<group>"; };
+		CD5687621A82E0BF00629C98 /* DYBetlineRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYBetlineRepository.h; sourceTree = "<group>"; };
+		CD5687631A82E0BF00629C98 /* DYBetlineRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYBetlineRepository.m; sourceTree = "<group>"; };
 		CD6865E31A27E92F000A1F56 /* dareyoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dareyoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD6865E71A27E92F000A1F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6865E81A27E92F000A1F56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -173,6 +179,8 @@
 				CD77A3E91A79A4860023BC65 /* DYBetlineViewController.xib */,
 				CD5033F21A7AF88400E6FA53 /* DYBetlineTableViewCell.h */,
 				CD5033F31A7AF88400E6FA53 /* DYBetlineTableViewCell.m */,
+				CD56875F1A82DF5C00629C98 /* DYBetlineTableViewCell+Configure.h */,
+				CD5687601A82DF5C00629C98 /* DYBetlineTableViewCell+Configure.m */,
 				CD5033F41A7AF88400E6FA53 /* DYBetlineTableViewCell.xib */,
 				CDCDBE7B1A3E0B3400086107 /* RLNetworkRequest.h */,
 				CDCDBE7C1A3E0B3400086107 /* RLNetworkRequest.m */,
@@ -180,6 +188,8 @@
 				CDF1CB2A1A56B7DB008F5F1F /* DYBetRepository.m */,
 				CDF1CB2C1A56BC3F008F5F1F /* DYAuthorRepository.h */,
 				CDF1CB2D1A56BC3F008F5F1F /* DYAuthorRepository.m */,
+				CD5687621A82E0BF00629C98 /* DYBetlineRepository.h */,
+				CD5687631A82E0BF00629C98 /* DYBetlineRepository.m */,
 				CD6865F31A27E92F000A1F56 /* Images.xcassets */,
 				CD6865F51A27E92F000A1F56 /* LaunchScreen.xib */,
 				CD6865E61A27E92F000A1F56 /* Supporting Files */,
@@ -439,10 +449,12 @@
 				CD6865EC1A27E92F000A1F56 /* AppDelegate.m in Sources */,
 				CDF1CB2B1A56B7DB008F5F1F /* DYBetRepository.m in Sources */,
 				CD77A3E61A79A4170023BC65 /* DYBetlineViewController.m in Sources */,
+				CD5687641A82E0BF00629C98 /* DYBetlineRepository.m in Sources */,
 				CDBCFE091A31231A00EF09E1 /* DYBet.m in Sources */,
 				CDCDBE7A1A3E069B00086107 /* NSDictionary+Parser.m in Sources */,
 				CD77A3E31A79A0AF0023BC65 /* LoginViewController.m in Sources */,
 				CD6865E91A27E92F000A1F56 /* main.m in Sources */,
+				CD5687611A82DF5C00629C98 /* DYBetlineTableViewCell+Configure.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

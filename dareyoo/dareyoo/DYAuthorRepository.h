@@ -14,6 +14,6 @@
 @interface DYAuthorRepository : NSObject
 
 +(instancetype)authorRepositoryWithNetwork:(RLNetworkRequest *)network;
--(void) getAuthorWithSucessBlock:(void (^)(DYAuthor *))success;
+-(void) getAuthorWithSucessBlock:(void (^)(DYAuthor *author))success;
 
 @end

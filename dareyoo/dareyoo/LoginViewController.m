@@ -5,12 +5,16 @@
 
 #import "LoginViewController.h"
 #import "DYBetlineViewController.h"
+#import "RLNetworkRequest.h"
+#import "DYBetlineRepository.h"
 
 @implementation LoginViewController
 
 -(IBAction)performLogin:(id)sender
 {
-    DYBetlineViewController *betline = [[DYBetlineViewController alloc] init];
+    RLNetworkRequest *network = [RLNetworkRequest network];
+    DYBetlineRepository *repository = [DYBetlineRepository betRepositoryWithNetwork:network];
+    DYBetlineViewController *betline = [DYBetlineViewController betlineViewControllerWithRepository:repository];
     UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:betline];
     [self presentViewController:navigation animated:YES completion:nil];
 }

@@ -5,21 +5,29 @@
 
 #import "DYBetlineViewController.h"
 #import "DYBetlineTableViewCell.h"
+#import "DYBetlineRepository.h"
+
+@interface DYBetlineViewController ()
+
+@property (nonatomic,strong,readonly) DYBetlineRepository *repository;
+
+@end
 
 @implementation DYBetlineViewController
 
 static NSString *DYBetlineTableViewCellIdentifier = @"DYBetlineTableViewCell";
 
-+(instancetype)betlineViewController
++(instancetype)betlineViewControllerWithRepository:(DYBetlineRepository *)repository
 {
-    return [[self alloc] initBetline];
+    return [[self alloc] initBetlineWithRepository:repository];
 }
 
--(instancetype)initBetline
+-(instancetype)initBetlineWithRepository:(DYBetlineRepository *)repository
 {
     self = [super init];
     if (self) {
         _table = [[UITableView alloc] init];
+        _repository = repository;
     }
     return self;
 }
@@ -30,6 +38,10 @@ static NSString *DYBetlineTableViewCellIdentifier = @"DYBetlineTableViewCell";
     
     [self.table registerClass:[DYBetlineTableViewCell class]
        forCellReuseIdentifier:DYBetlineTableViewCellIdentifier];
+    
+    [self.repository getBetWithSucessBlock:^(NSArray *array) {
+        NSLog(@"did it");
+    }];
 }
 
 

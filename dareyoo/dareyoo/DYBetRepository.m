@@ -1,7 +1,4 @@
 //
-//  DYBetRepository.m
-//  dareyoo
-//
 //  Created by Raimon Lapuente on 2/1/15.
 //  Copyright (c) 2015 Dareyoo. All rights reserved.
 //
@@ -33,7 +30,7 @@
     return self;
 }
 
--(void) getBetWithSucessBlock:(void (^)(DYBet *))success
+-(void) getBetWithSucessBlock:(void (^)(DYBet *bet))success
 {
     [self.network performPOSTRequest:@"" params:@{} successBlock:^(AFHTTPRequestOperation *operation, id responseObject) {
         if (responseObject) {

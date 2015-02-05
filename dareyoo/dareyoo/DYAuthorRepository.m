@@ -33,7 +33,7 @@
     return self;
 }
 
--(void) getBetWithSucessBlock:(void (^)(DYAuthor *))success
+-(void) getAuthorWithSucessBlock:(void (^)(DYAuthor *author))success
 {
     [self.network performPOSTRequest:@"" params:@{} successBlock:^(AFHTTPRequestOperation *operation, id responseObject) {
         if (responseObject) {

@@ -5,7 +5,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class DYBetlineRepository;
+
 @interface DYBetlineViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 
 @property (nonatomic,strong) IBOutlet UITableView *table;
+
++(instancetype)betlineViewControllerWithRepository:(DYBetlineRepository *)repository;
+
 @end
